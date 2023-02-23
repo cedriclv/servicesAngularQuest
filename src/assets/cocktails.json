@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Sex On The beach",
+        "price": 10,
+        "image": "cok1.jfif"
+    },
+    {
+        "name": "Marguarita",
+        "price": 13,
+        "image": "cok3.jfif"
+    },
+    {
+        "name": "Martini",
+        "price": 8,
+        "image": "cok2.jfif"
+    }
+]
+

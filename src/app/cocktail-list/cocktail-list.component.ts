@@ -17,7 +17,7 @@ export class CocktailListComponent {
     this.getCocktails();      
   }
   getCocktails(): void {
-    this.cocktails = this.cocktailService.getCocktails();
+    this.cocktailService.getCocktails().subscribe(cocktailsFromJSON => this.cocktails = cocktailsFromJSON );
   }  
 
 }
